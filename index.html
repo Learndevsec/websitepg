@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunrise PG</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f7fa;
+}
+
+/* HERO SECTION */
+.hero{
+    background:url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2') center/cover;
+    height:90vh;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.hero h1{
+    font-size:48px;
+    margin:0;
+}
+.hero p{
+    font-size:20px;
+}
+.btn{
+    padding:12px 25px;
+    margin:10px;
+    border:none;
+    border-radius:25px;
+    background:#ff6b00;
+    color:white;
+    cursor:pointer;
+    text-decoration:none;
+}
+.btn:hover{
+    background:#e85d00;
+}
+
+/* SECTION */
+.section{
+    padding:50px 10%;
+}
+.section h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+/* ROOM CARDS */
+.rooms{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+.card{
+    background:white;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    overflow:hidden;
+}
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+.card-content{
+    padding:15px;
+}
+
+/* FACILITIES */
+.facilities{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:15px;
+    text-align:center;
+}
+.facility{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* GALLERY */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:10px;
+}
+.gallery img{
+    width:100%;
+    border-radius:8px;
+}
+
+/* CONTACT */
+.contact{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>Sunrise PG</h1>
+        <p>Comfortable Stay Near IT Park</p>
+        <a class="btn" href="tel:9999999999">Call Now</a>
+        <a class="btn" href="#">WhatsApp</a>
+    </div>
+</div>
+
+<!-- ROOMS -->
+<div class="section">
+<h2>Room Options</h2>
+<div class="rooms">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0">
+<div class="card-content">
+<h3>1 Sharing Room</h3>
+<p>Attached Bathroom<br>Study Table<br>WiFi Included</p>
+<p><b>Starting ₹9000</b></p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1615873968403-89e068629265">
+<div class="card-content">
+<h3>2 Sharing Room</h3>
+<p>Spacious Room<br>Wardrobe<br>Daily Cleaning</p>
+<p><b>Starting ₹6500</b></p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf">
+<div class="card-content">
+<h3>3 Sharing Room</h3>
+<p>Affordable Stay<br>WiFi<br>Power Backup</p>
+<p><b>Starting ₹5000</b></p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d">
+<div class="card-content">
+<h3>4 Sharing Room</h3>
+<p>Budget Friendly<br>Large Space</p>
+<p><b>Starting ₹4000</b></p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- FACILITIES -->
+<div class="section">
+<h2>Facilities</h2>
+<div class="facilities">
+<div class="facility">WiFi</div>
+<div class="facility">Kitchen</div>
+<div class="facility">Laundry</div>
+<div class="facility">Gym</div>
+<div class="facility">Power Backup</div>
+<div class="facility">24/7 Water</div>
+</div>
+</div>
+
+<!-- GALLERY -->
+<div class="section">
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85">
+<img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511">
+<img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267">
+</div>
+</div>
+
+<!-- CONTACT -->
+<div class="contact">
+<h2>Book Your Stay Today</h2>
+<p>Call or WhatsApp for Availability</p>
+<a class="btn" href="tel:9999999999">Call Now</a>
+</div>
+
+</body>
+</html>
